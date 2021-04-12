@@ -1,0 +1,1 @@
+.\timertest.o: timertest.c

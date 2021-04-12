@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wang kai, P R C, LIC=47GU5-GHN18-45NT5-GZB3P-6SJ4Q-ADY0L
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Program Files\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+G:\Matlab_ANSYS\FreeRTOSexercise\Demos\CORTEX_STM32F103_Keil\RTOSDemo.uvprojx
+Project File Date:  12/12/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STM32F10x.s...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_nvic.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_systick.c...
+compiling stm32f10x_tim.c...
+compiling lcd.c...
+STM32F10xFWLib\src\lcd.c(24): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+STM32F10xFWLib\src\lcd.c: 0 warnings, 1 error
+compiling ParTest.c...
+ParTest\ParTest.c(75): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+ParTest\ParTest.c: 0 warnings, 1 error
+compiling serial.c...
+serial\serial.c(75): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+serial\serial.c: 0 warnings, 1 error
+compiling timertest.c...
+timertest.c(73): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+timertest.c: 0 warnings, 1 error
+compiling main.c...
+main.c(106): error:  #5: cannot open source input file "FreeRTOS.h": No such file or directory
+  #include "FreeRTOS.h"
+main.c: 0 warnings, 1 error
+compiling spi_flash.c...
+compiling semtest.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\semtest.c": No such file or directory
+..\Common\Minimal\semtest.c: 0 warnings, 1 error
+compiling BlockQ.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\BlockQ.c": No such file or directory
+..\Common\Minimal\BlockQ.c: 0 warnings, 1 error
+compiling blocktim.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\blocktim.c": No such file or directory
+..\Common\Minimal\blocktim.c: 0 warnings, 1 error
+compiling comtest.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\comtest.c": No such file or directory
+..\Common\Minimal\comtest.c: 0 warnings, 1 error
+compiling death.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\death.c": No such file or directory
+..\Common\Minimal\death.c: 0 warnings, 1 error
+compiling flash.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\flash.c": No such file or directory
+..\Common\Minimal\flash.c: 0 warnings, 1 error
+compiling integer.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\integer.c": No such file or directory
+..\Common\Minimal\integer.c: 0 warnings, 1 error
+compiling PollQ.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\PollQ.c": No such file or directory
+..\Common\Minimal\PollQ.c: 0 warnings, 1 error
+compiling tasks.c...
+"no source": Error:  #5: cannot open source input file "..\..\Source\tasks.c": No such file or directory
+..\..\Source\tasks.c: 0 warnings, 1 error
+compiling list.c...
+"no source": Error:  #5: cannot open source input file "..\..\Source\list.c": No such file or directory
+..\..\Source\list.c: 0 warnings, 1 error
+compiling queue.c...
+"no source": Error:  #5: cannot open source input file "..\..\Source\queue.c": No such file or directory
+..\..\Source\queue.c: 0 warnings, 1 error
+compiling port.c...
+"no source": Error:  #5: cannot open source input file "..\..\Source\portable\RVDS\ARM_CM3\port.c": No such file or directory
+..\..\Source\portable\RVDS\ARM_CM3\port.c: 0 warnings, 1 error
+compiling heap_2.c...
+"no source": Error:  #5: cannot open source input file "..\..\Source\portable\MemMang\heap_2.c": No such file or directory
+..\..\Source\portable\MemMang\heap_2.c: 0 warnings, 1 error
+".\RTOSDemo.axf" - 5 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  G:\Matlab_ANSYS\FreeRTOSexercise\Demos\CORTEX_STM32F103_Keil\RTE
+  D:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

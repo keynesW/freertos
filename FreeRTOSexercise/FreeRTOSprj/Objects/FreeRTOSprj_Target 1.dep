@@ -1,0 +1,151 @@
+Dependencies for Project 'FreeRTOSprj', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5FF84AC4)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+F (.\stm32f10x_it.c)(0x5FDD9A21)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (..\STM32F10xFWLib\inc\stm32f10x_it.h)(0x52381025)
+I (..\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x52381025)
+I (..\STM32F10xFWLib\inc\stm32f10x_map.h)(0x5FCF419D)
+I (..\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x52381025)
+I (..\STM32F10xFWLib\inc\stm32f10x_type.h)(0x5EDE315C)
+I (..\STM32F10xFWLib\inc\cortexm3_macro.h)(0x52381026)
+I (..\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x52381025)
+I (..\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x52381026)
+I (..\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x52381026)
+I (..\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x52381025)
+I (..\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x52381026)
+I (..\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x52381026)
+I (..\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x52381026)
+F (..\OS_src\core_src\croutine.c)(0x573F3A16)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+I (..\OS_src\include\croutine.h)(0x573F3A16)
+F (..\OS_src\core_src\event_groups.c)(0x5EDB3A37)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+I (..\OS_src\include\timers.h)(0x573F3A16)
+I (..\OS_src\include\event_groups.h)(0x573F3A16)
+F (..\OS_src\core_src\list.c)(0x5EDC4FB1)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\list.h)(0x573F3A16)
+F (..\OS_src\core_src\queue.c)(0x573F3A17)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+I (..\OS_src\include\queue.h)(0x5EDB36E6)
+F (..\OS_src\core_src\readme.txt)(0x5238100A)()
+F (..\OS_src\core_src\tasks.c)(0x5EDBB550)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+I (..\OS_src\include\timers.h)(0x573F3A16)
+I (..\OS_src\include\StackMacros.h)(0x573F3A16)
+F (..\OS_src\core_src\timers.c)(0x5EDBC52D)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+I (..\OS_src\include\queue.h)(0x5EDB36E6)
+I (..\OS_src\include\timers.h)(0x573F3A16)
+F (..\OS_src\port_m3\heap_4.c)(0x5FDD9CB7)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+F (..\OS_src\port_m3\port.c)(0x5FD1B2D5)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\OS_src\include\FreeRTOS.h)(0x5EDBC443)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)
+I (..\OS_src\include\projdefs.h)(0x5EDB3456)
+I (..\OS_src\include\portable.h)(0x573F3A16)
+I (..\OS_src\include\deprecated_definitions.h)(0x573F3A16)
+I (..\OS_src\include\portmacro.h)(0x5EDB494C)
+I (..\OS_src\include\mpu_wrappers.h)(0x573F3A16)
+I (..\OS_src\include\task.h)(0x5EDB4BC9)
+I (..\OS_src\include\list.h)(0x573F3A16)
+F (..\OS_src\include\FreeRTOSConfig.h)(0x5F2C1885)()
+F (.\README.txt)(0x5EDAFE4E)()
+F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x50B2CC4C)(--cpu Cortex-M3 --li -g --apcs=interwork -IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1"--list .\listings\startup_armcm3.lst --xref -o .\objects\startup_armcm3.o --depend .\objects\startup_armcm3.d)
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x53FEF2AA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\OS_src\include -I ..\STM32F10xFWLib\inc-IG:\Matlab_ANSYS\FreeRTOSexercise\FreeRTOSprj\RTE-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include"-D__UVISION_VERSION="521" -D_RTE_ -DARMCM3-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
+I (D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x562075B4)
+I (D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625B70C)
+I (D:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (D:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x55D41F08)
